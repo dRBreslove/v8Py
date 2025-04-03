@@ -1,7 +1,7 @@
 # v8Py
 ## An in-memory Python enterpreter inside v8
 
-```
+```js
 const Py = require("v8Py");
 
 Py({x:0,y:0,z:0},(payload)=>{
