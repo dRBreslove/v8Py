@@ -1,7 +1,7 @@
 # v8Py
 ## An in-memory Python enterpreter inside v8
 
-'''
+```
 const Py = require("v8Py");
 
 Py({x:0,y:0,z:0},(payload)=>{
@@ -12,7 +12,7 @@ Py({x:0,y:0,z:0},(payload)=>{
 function updateMap(pos){
   ...
 }
-'''
+```
 
 
 # v8.dev [![Build status](https://github.com/v8/v8.dev/actions/workflows/deploy.yml/badge.svg)](https://github.com/v8/v8.dev/actions/workflows/deploy.yml)
