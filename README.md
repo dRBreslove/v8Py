@@ -1,3 +1,18 @@
+# v8Py: An In-Memory Python Interpreter Inside V8
+
+v8Py allows you to embed and run a Python interpreter directly within the V8 JavaScript engine. This enables seamless interoperability between JavaScript and Python code within the same process.
+
+## Features
+
+* Execute Python code directly from JavaScript.
+* Pass data (numbers, strings, objects, etc.) between JavaScript and Python.
+* Call JavaScript functions from Python.
+* Handle callbacks from Python to JavaScript.
+
+## Installation
+
+```bash
+npm install v8py
 # v8Py
 ## An in-memory Python enterpreter inside v8
 
